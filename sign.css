@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+  font-family: Arial;
+  background-color: white;
+}
+
+.short-icon {
+  border-radius: 2px;
+}
+
+.sign-bar {
+  height: 35px;
+}
+
+.sign-logo {
+  height: 35px;
+  width: 200px;
+  margin-left: 45%;
+  margin-top: 20px;
+}
+
+.logo {
+  background-image: url(https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo.png);
+  height: 35px;
+  width: 180px;
+  background-size: cover;
+  justify-items: center;
+  align-items: center;
+  background-position: center;
+}
+
+/**Sign up box**/
+.sign-box {
+  background-color: white;
+  font-family: Arial;
+  height: 350px;
+  width: 280px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.box {
+  height: 340px;
+  width: 270px;
+}
+
+.box h2 {
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.box label {
+  font-weight: 700;
+  margin-top: 5rem;
+  font-size: small;
+}
+
+.box input {
+  height: 26px;
+  width: 18rem;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+
+.box button {
+  background-color: rgb(242, 242, 66);
+  color: black;
+  height: 28px;
+  width: 18rem;
+  justify-items: center;
+  align-items: center;
+  border-radius: 7px;
+  margin-top: 14px;
+  border: none;
+  font-weight: 500;
+}
+
+.box button:hover {
+  background-color: rgb(223, 223, 31);
+}
+.privacy {
+  font-size: small;
+  margin-top: 25px;
+}
+.privacy a:hover {
+  color: rgb(114, 159, 24);
+}
+
+.help {
+  font-size: smaller;
+  margin-top: 35px;
+}
+
+.help a:hover {
+  color: rgb(114, 159, 24);
+}
+
+fieldset {
+  height: 280px;
+  width: 320px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-left: 40%;
+  padding-left: 25px;
+  padding-top: 15px;
+  border-color: rgb(247, 235, 235);
+}
+
+.new-amazon {
+  margin-left: 42%;
+  margin-top: 20px;
+  color: rgb(147, 141, 141);
+  font-size: 17px;
+}
+
+.new-acc {
+  margin-left: 41%;
+  margin-top: 20px;
+  height: 30px;
+  width: 320px;
+  border-radius: 5px;
+  border-color: rgb(189, 184, 184);
+}
+hr {
+  margin-top: 18px;
+  color: rgb(247, 235, 235);
+}
+
+.footer-cont {
+  background-color: rgb(251, 247, 247);
+  width: 100%;
+  height: 20rem;
+  font-size: 12px;
+}
+
+.footer-cont p {
+  margin-top: 15px;
+  margin-left: 43%;
+  background-color: rgb(251, 247, 247);
+}
+
+.copy {
+  color: rgb(101, 100, 100);
+}
+
+.footer-cont a:hover {
+  color: rgb(114, 159, 24);
+}
+
+@media only screen and (max-width: 600px) {
+  .page {
+    margin-left: -100px;
+  }
+
+  .sign-logo {
+    height: 35px;
+    width: 200px;
+    margin-left: 40%;
+  }
+
+  fieldset {
+    margin-left: 23%;
+  }
+
+  .new-amazon {
+    margin-left: 26%;
+    margin-top: 20px;
+    color: rgb(147, 141, 141);
+    font-size: 17px;
+  }
+
+  .new-acc {
+    margin-left: 25%;
+  }
+
+  .footer-cont p {
+    margin-top: 15px;
+    margin-left: 32%;
+    background-color: rgb(251, 247, 247);
+  }
+}
