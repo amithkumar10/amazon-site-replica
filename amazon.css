@@ -173,6 +173,7 @@ span {
   align-items: center;
 }
 .sidebar {
+  top: 0px;
   left: -280px;
   height: 177%;
   width: 280px;
@@ -189,7 +190,6 @@ span {
   color: white;
 }
 .sidebar header {
-  margin-top: 553px;
   font-size: 15px;
   text-align: center;
   line-height: 50px;
@@ -267,7 +267,7 @@ label #cancel {
 
 #check:checked ~ .sidebar {
   left: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 #check:checked ~ label #cancel {
@@ -491,7 +491,6 @@ label #cancel {
   }
 
   .sidebar header {
-    margin-top: 495px;
     font-size: 15px;
     text-align: center;
     line-height: 50px;
@@ -523,10 +522,8 @@ label #cancel {
 
   .hero-msg {
     top: 44rem;
-    width: 80%;
     left: 90px;
     justify-content: center;
-    display: none;
   }
 }
 
